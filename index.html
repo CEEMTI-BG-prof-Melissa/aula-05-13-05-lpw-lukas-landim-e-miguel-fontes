@@ -4,25 +4,25 @@
   </head>
   
   <body> 
-      <h1> Formulario com metodo GET </h1> 
+      <h2> Formulario com metodo GET </h2> 
         <br> 
-    <form>  
-      Login: <input type="text"> <br>
+    <form action="/page.php" method="">  
+      Login: <input type="text" id="login" name="login"> <br>
         <br> 
-      Senha: <input type="password">  <br>
+      Senha: <input type="password" id="senha" name="senha">  <br>
         <br> 
-      <button type="submit">Entrar</button>
+      <input type="button" value="entrar"> 
     </form> 
     <br>
     
-      <form> 
-        <h1> Formulario com metodo POST </h1> 
+      <form action="/page.php" method=""> 
+        <h2> Formulario com metodo POST </h2> 
             <br> 
-          Login: <input type="text"> <br>
+          Login: <input type="text" id="login" name="login"> <br>
             <br>  
-          Senha: <input type="password"> <br>
+          Senha: <input type="password" id="senha" name="senha"> <br>
             <br>  
-            <button type="submit">Entrar</button> <br>
+            <input type="submit" value="entrar"> <br>
         </form> 
   </body> 
 </html>
